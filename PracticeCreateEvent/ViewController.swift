@@ -20,7 +20,7 @@ class ViewController: UITableViewController {
     func setupTableViewUI() {
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.278, green: 0.310, blue: 0.310, alpha: 1.00)
         self.navigationController?.navigationBar.tintColor = UIColor(red: 0.000, green: 0.663, blue: 0.800, alpha: 1.00)
-        //self.tableView.separatorColor = .clearColor()
+        self.tableView.separatorColor = .clearColor()
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
         setBackgroundForTableView()
     }
